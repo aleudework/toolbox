@@ -5,7 +5,7 @@
 - Conda env
 conda create --name "name of env"
 
-- Hent conda pakker ligesom med pip 
+- Hent conda pakker ligesom med pip  (pip virker stadig fint dertil, men conda er bedre)
 conda install "dependency"
 
 - Lav .yml fil (freeze) med (alle conda) dependencies
