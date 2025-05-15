@@ -15,3 +15,12 @@ conda env export > environment.yml
 
 - Clone repo med ssh. MEGA OBS PÅ. Vælg github-work. Ellers bliver det aleude og ikke aleudework
 git clone git@github-work:aleudework/fine-tune-models-exp.git 
+
+
+### HuggingFace
+
+- Find din HuggingFace nøgle, A sådan her:
+cat ~/.cache/huggingface/token
+
+Eller sådan her
+cat ~/.huggingface/token

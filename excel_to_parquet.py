@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def excel_to_parquet(excel_path, parquet_path='./output.parquet', exclude_sheets=None):
+def excel_to_parquet(excel_path, output_path='./output.parquet', exclude_sheets=None):
     """
     Converts all sheets (except those in exclude_sheets) in an Excel file into a single Parquet file.
     Assumes all included sheets have the same structure.
@@ -21,5 +21,5 @@ def excel_to_parquet(excel_path, parquet_path='./output.parquet', exclude_sheets
 
     # Combine and export
     combined_df = pd.concat(included_sheets.values(), ignore_index=True)
-    combined_df.to_parquet(parquet_path)
-    print(f"Parquest file created at: {parquet_path}")
+    combined_df.to_parquet(output_path)
+    print(f"Parquest file created at: {output_path}")
