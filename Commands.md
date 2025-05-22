@@ -19,6 +19,9 @@ conda env update --file environment.yml --prune
 - Clone repo med ssh. MEGA OBS PÅ. Vælg github-work. Ellers bliver det aleude og ikke aleudework
 git clone git@github-work:aleudework/fine-tune-models-exp.git 
 
+- Reset commit
+git reset
+
 
 ### HuggingFace
 
@@ -27,3 +30,15 @@ cat ~/.cache/huggingface/token
 
 Eller sådan her
 cat ~/.huggingface/token
+
+### SSH
+
+- Tjek config names i SSH
+cat ~/.ssh/config
+
+
+### Terminal commands
+
+- Go back Alt+Arrow (skip 1 word).
+- Ctrl+A go to the start
+- Ctrl+E go to the end
