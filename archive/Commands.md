@@ -42,3 +42,14 @@ cat ~/.ssh/config
 - Go back Alt+Arrow (skip 1 word).
 - Ctrl+A go to the start
 - Ctrl+E go to the end
+
+### API ####
+
+# Skriv eller vis API keys i env på mac
+1) I terminalen skriv
+nano ~/.zshrc
+2) Skriv herefter
+export API_KEY_NAME="6e..."
+3) Gem
+
+# Hent API key i 
