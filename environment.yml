@@ -31,7 +31,6 @@ dependencies:
   - c-ares=1.19.1=h80987f9_0
   - ca-certificates=2025.4.26=hbd8a1cb_0
   - certifi=2025.4.26=py313hca03da5_0
-  - charset-normalizer=3.3.2=pyhd3eb1b0_0
   - comm=0.2.2=pyhd8ed1ab_1
   - cyrus-sasl=2.1.28=h9131b1a_1
   - datasets=3.3.2=py313hca03da5_0
@@ -139,7 +138,6 @@ dependencies:
   - python-xxhash=3.5.0=py313h80987f9_0
   - python_abi=3.13=0_cp313
   - pytorch=2.5.1=gpu_mps_py313hbd1d365_204
-  - pytz=2024.1=py313hca03da5_0
   - pyyaml=6.0.2=py313h80987f9_0
   - pyzmq=26.2.0=py313h313beb8_0
   - re2=2024.07.02=h48ca7d4_0
@@ -181,9 +179,46 @@ dependencies:
   - zstd=1.5.6=hfb09047_0
   - pip:
       - accelerate==1.6.0
+      - airportsdata==20250523
+      - annotated-types==0.7.0
+      - anyio==4.9.0
+      - babel==2.17.0
+      - charset-normalizer==3.4.2
+      - click==8.2.1
+      - cloudpickle==3.1.1
+      - courlan==1.3.2
+      - dateparser==1.2.1
+      - diskcache==5.6.3
+      - duckduckgo-search==8.0.2
+      - genson==1.3.0
+      - h11==0.16.0
+      - htmldate==1.9.3
+      - httpcore==1.0.9
+      - httpx==0.28.1
+      - interegular==0.3.3
+      - jsonschema==4.23.0
+      - jsonschema-specifications==2025.4.1
+      - justext==3.0.2
+      - lark==1.2.2
+      - lxml==5.4.0
+      - lxml-html-clean==0.4.2
       - markdown-it-py==3.0.0
       - mdurl==0.1.2
+      - ollama==0.4.8
+      - outlines-core==0.1.26
       - peft==0.15.2
+      - primp==0.15.0
+      - pycountry==24.6.1
+      - pydantic==2.11.5
+      - pydantic-core==2.33.2
+      - pytz==2025.2
+      - referencing==0.36.2
       - rich==14.0.0
+      - rpds-py==0.25.1
+      - sniffio==1.3.1
+      - tld==0.13.1
+      - trafilatura==2.0.0
       - trl==0.17.0
-prefix: /opt/anaconda3/envs/work
+      - typing-inspection==0.4.1
+      - tzlocal==5.3.1
+prefix: /Users/alhu/miniconda3/envs/work
