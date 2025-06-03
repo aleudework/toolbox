@@ -1,10 +1,12 @@
 # API KEYS
 
 # Add API-key to env (Linux / Mac)
-- Write in terminal:
+1) Write cmd terminal:
 nano ~/.zshrc
-- Write and save:
+2) Write in the file and save:
 export="API-KEY"
+3) Kør følgende i terminalen (du bruger python i) for at "gemme"
+source ~/.zshrc
 
 # Show API-keys in env (Linux / Mac)
 cat ~/.zshrc
